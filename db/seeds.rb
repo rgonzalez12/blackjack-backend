@@ -11,8 +11,21 @@ Player.create([{
 }])
 
 Game.create([{
-    player_id: 1,
+    id: 1,
     wins: 10,
-    loses: 0,
+    losses: 0,
     blackjacks_hit: 3,
+    player_id: 1
+}])
+
+Player.create([{
+    name: "Jarbi"
+}])
+
+Game.create([{
+    id: 2,
+    wins: 420,
+    losses: 69,
+    blackjacks_hit: 0,
+    player_id: 2
 }])
