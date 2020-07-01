@@ -22,7 +22,7 @@ class GamesController < ApplicationController
     private
 
     def game_params
-      params.require(:game).permit(:id, :wins, :losses, :blackjacks_hit, :player_id)
+      params.require(:game).permit(:id, :wins, :losses, :blackjacks_hit, :player_id, player_attributes: [:name, :id])
     end
 
 end

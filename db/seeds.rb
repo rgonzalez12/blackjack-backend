@@ -29,3 +29,15 @@ Game.create([{
     blackjacks_hit: 0,
     player_id: 2
 }])
+
+Player.create([{
+    name: "Corinna"
+}])
+
+Game.create([{
+    id: 3,
+    wins: 30,
+    losses: 13,
+    blackjacks_hit: 2,
+    player_id: 3
+}])
